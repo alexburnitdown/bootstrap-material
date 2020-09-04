@@ -3,7 +3,17 @@ html,body,header,#intro {
     
 }
 #intro {
-    /* background: url(../img/logo.png); */
-    /* background-color: black; */
+    background: url(../img/night.jpg) no-repeat center center fixed;
+    background-size: cover;
     background-color: black;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;    
+}
+
+@media {max-width: 768px} {
+    .navbar:not(.top-nav-collapse) {
+        background: ##24355C;
+    }
 }
